@@ -30,35 +30,32 @@ export const portfolioData = {
       description: "Bertanggung jawab atas integritas data dan transparansi publik melalui pengelolaan entri data digital secara waktu nyata (real-time) menggunakan aplikasi Sirekap Mobile. Mengarahkan operasional Tempat Pemungutan Suara (TPS) dari tahap persiapan hingga penyelesaian agar sepenuhnya mematuhi Peraturan KPU (PKPU) No. 8/2022. Menyusun, memverifikasi, dan menyerahkan dokumentasi resmi hasil pemilihan kepada otoritas pemilihan terkait secara akurat."
     }
   ],
-  projects: [
+projects: [
     {
       title: "Manajemen Produk - minidetik",
       category: "Manajemen Produk",
       description: "Proyek manajemen produk untuk minidetik (Agregator Tautan detikcom) yang dilaksanakan selama masa magang di PT Trans Digital Media (detikcom). Menghasilkan Dokumen Kebutuhan Produk (PRD) yang komprehensif dan desain prototipe interaktif untuk memvalidasi alur agregasi konten.",
-      image: "https://via.placeholder.com/600x400.png?text=Prototipe+minidetik",
+      iframeSrc: "https://embed.figma.com/proto/Mxlu3vuZGCk75JRpJGMaIB/Wireframe-minidetik--detiknetwork-s-Link-in-Bio-?page-id=0%3A1&node-id=108-2&starting-point-node-id=108%3A2&show-proto-sidebar=1&embed-host=share",
       links: [
-        { name: "Baca PRD", url: "#" },
-        { name: "Prototipe Figma", url: "#" }
+        { name: "Baca PRD", url: "#" }
       ]
     },
     {
       title: "Manajemen Produk - Unit Layanan Aduan Surakarta (ULAS)",
       category: "Manajemen Produk & UI/UX",
       description: "Peningkatan desain dan manajemen produk untuk platform ULAS selama masa magang di Diskominfo SP Kota Surakarta. Proyek ini mendemonstrasikan proses penerjemahan kebutuhan regulasi pemerintah menjadi prototipe antarmuka interaktif yang dipresentasikan melalui salindia (slideshow) resmi kepada instansi.",
-      image: "https://via.placeholder.com/600x400.png?text=Prototipe+ULAS",
+      iframeSrc: "https://embed.figma.com/proto/XNQPbkSr7A5y2u8AfZZEqM/ULAS-Surakarta-v2?page-id=0%3A1&node-id=1-4&starting-point-node-id=1%3A4&embed-host=share",
       links: [
-        { name: "Lihat Salindia (Slideshow)", url: "#" },
-        { name: "Prototipe Figma", url: "#" }
+        { name: "Lihat Salindia (Slideshow)", url: "#" }
       ]
     },
     {
       title: "Manajemen Produk - Sirekap Mobile",
       category: "UI/UX & Manajemen Produk",
       description: "Analisis dan evaluasi komprehensif terhadap Antarmuka Pengguna (UI) dan Pengalaman Pengguna (UX) dari aplikasi Sirekap Mobile menggunakan metodologi Design Thinking. Disusun sebagai skripsi untuk gelar Sarjana Ilmu Komputer di Universitas Sebelas Maret (UNS). Mencakup laporan akademis dan prototipe evaluasi interaktif.",
-      image: "https://via.placeholder.com/600x400.png?text=Prototipe+Sirekap+Mobile",
+      iframeSrc: "https://embed.figma.com/proto/a8m0v61sdR6KXOkixoDPlj/Prototype-Sirekap-Mobile-Skripsi?node-id=1-5&page-id=0%3A1&starting-point-node-id=1%3A5&embed-host=share",
       links: [
-        { name: "Baca Skripsi", url: "#" },
-        { name: "Prototipe Figma", url: "#" }
+        { name: "Baca Skripsi", url: "#" }
       ]
     }
   ],

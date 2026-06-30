@@ -7,7 +7,26 @@ const Projects = ({ data }) => {
       <div className="kisi-proyek">
         {data.map((project, index) => (
           <article key={index} className="kartu-proyek">
-            <img src={project.image} alt={`Tangkapan layar dari proyek ${project.title}`} className="gambar-proyek" loading="lazy" />
+            
+            {project.iframeSrc ? (
+              <div className="wadah-iframe">
+                <iframe 
+                  title={project.title}
+                  src={project.iframeSrc} 
+                  allowFullScreen
+                  className="iframe-proyek"
+                  loading="lazy"
+                ></iframe>
+              </div>
+            ) : (
+              <img 
+                src={project.image} 
+                alt={`Tangkapan layar dari proyek ${project.title}`} 
+                className="gambar-proyek" 
+                loading="lazy" 
+              />
+            )}
+
             <div className="konten-proyek">
               <span className="kategori-proyek">{project.category}</span>
               <h3>{project.title}</h3>
@@ -15,7 +34,7 @@ const Projects = ({ data }) => {
                 {project.description}
               </p>
               <div className="tautan-proyek">
-                {project.links.map((link, idx) => (
+                {project.links && project.links.map((link, idx) => (
                   <a key={idx} href={link.url} className="tombol" style={{ padding: '0.5rem 1rem', fontSize: '0.85rem' }}>
                     {link.name}
                   </a>
