@@ -9,7 +9,7 @@ export const portfolioData = {
     linkedin: "https://www.linkedin.com/in/oktava8/",
     profileImage: "https://media.licdn.com/dms/image/v2/D5635AQE9PjqOhPnirQ/profile-framedphoto-shrink_800_800/B56Z1IPVMJGwAg-/0/1775033472097?e=1783411200&v=beta&t=W6gGnJJipCoF6rCx3xvcPS994eozU0cjxm2tW551brI",
   },
-  summary: "Lulusan Sarjana Ilmu Komputer dari Universitas Sebelas Maret dengan pengalaman praktis sebagai Manajer Produk TI di detikcom dan Diskominfo SP Kota Surakarta. Memiliki keahlian mendalam dalam penyusunan peta jalan produk, Dokumen Kebutuhan Produk (PRD), Agile/Scrum, perancangan Figma, manajemen pemangku kepentingan, dan konsultasi TI. Tersertifikasi sebagai Manajer Proyek dari Google dan Administrator Jaringan Junior dari BNSP dengan fondasi yang kuat dalam infrastruktur dan sistem teknis.",
+  summary: "Lulusan Baru Sarjana Informatika dari Universitas Sebelas Maret dengan pengalaman praktis sebagai IT Product Manager di detikcom dan Diskominfo SP Kota Surakarta. Memiliki keahlian mendalam dalam penyusunan product roadmap, Product Requirement Document (PRD), Agile/Scrum, perancangan Figma, manajemen pemangku kepentingan, dan konsultasi TI. Tersertifikasi sebagai Project Manager dari Google dan Administrator Jaringan Muda dari BNSP dengan fondasi yang kuat dalam infrastruktur dan sistem teknis.",
   experience: [
     {
       role: "IT Product Manager Intern",
@@ -19,10 +19,10 @@ export const portfolioData = {
       description: [
         "Mengelola seluruh siklus hidup produk TI, mencakup tahap pengembangan, pengujian Jaminan Mutu (QA), hingga implementasi teknis.",
         "Mendefinisikan dan memelihara peta jalan produk beserta backlog untuk menyelaraskan tujuan tim pengembangan dengan target bisnis.",
-        "Menyusun Dokumen Kebutuhan Produk (PRD) guna memastikan kejelasan spesifikasi antar tim pengembang dan bisnis.",
+        "Menyusun Product Requirement Document (PRD) guna memastikan kejelasan spesifikasi antar tim pengembang dan bisnis.",
         "Melaksanakan riset pengguna dan analisis kompetitor untuk merumuskan strategi produk yang berbasis data.",
-        "Merancang wireframe Figma dengan fidelitas rendah untuk mendefinisikan alur pengguna dan proses otomatisasi.",
-        "Menyusun salindia presentasi bagi pemangku kepentingan dan panduan pengguna guna meningkatkan efisiensi operasional dan tingkat adopsi produk."
+        "Merancang wireframe Figma dengan low fidelity untuk mendefinisikan alur pengguna dan proses otomatisasi.",
+        "Menyusun presentasi bagi pemangku kepentingan dan panduan pengguna guna meningkatkan efisiensi operasional dan tingkat adopsi produk."
       ]
     },
     {
@@ -33,7 +33,7 @@ export const portfolioData = {
       description: [
         "Menerjemahkan kebutuhan pengguna dan instansi pemerintah ke dalam spesifikasi teknis untuk platform Unit Layanan Aduan Surakarta (ULAS) sesuai dengan Peraturan Wali Kota Surakarta No. 8.1/2023.",
         "Menerapkan metodologi Design Thinking untuk mengidentifikasi berbagai peluang optimasi sistem melalui konsultasi dengan pemangku kepentingan.",
-        "Mengembangkan prototipe Figma dengan fidelitas tinggi dan mempresentasikannya kepada pejabat pemerintahan guna mendorong keputusan produk yang berpusat pada manusia di dalam sektor publik."
+        "Mengembangkan prototipe Figma dengan high fidelity dan mempresentasikannya kepada pejabat pemerintahan guna mendorong keputusan produk yang berpusat pada manusia di dalam sektor publik."
       ]
     },
     {
@@ -50,17 +50,17 @@ export const portfolioData = {
   ],
 projects: [
     {
-      title: "Manajemen Produk - minidetik",
-      category: "Manajemen Produk & UI/UX",
-      description: "Proyek manajemen produk untuk minidetik (Agregator Tautan detikcom) yang dilaksanakan selama masa magang di PT Trans Digital Media (detikcom). Menghasilkan Dokumen Kebutuhan Produk (PRD) yang komprehensif dan desain prototipe interaktif untuk memvalidasi alur agregasi konten.",
+      title: "minidetik",
+      category: "Product Management",
+      description: "Proyek manajemen produk untuk minidetik (Agregator Tautan detikcom) yang dilaksanakan selama masa magang di PT Trans Digital Media (detikcom). Menghasilkan Product Requirements Document (PRD) yang komprehensif dan desain prototipe interaktif untuk memvalidasi alur agregasi konten.",
       iframeSrc: "https://embed.figma.com/proto/Mxlu3vuZGCk75JRpJGMaIB/Wireframe-minidetik--detiknetwork-s-Link-in-Bio-?page-id=0%3A1&node-id=108-2&starting-point-node-id=108%3A2&show-proto-sidebar=1&embed-host=share",
       links: [
         { name: "Baca PRD", url: "https://docs.google.com/document/d/1x6knJQGtRYcJDo56vQl0tvA4sEfxmNwK3HzUj5H8jsU/edit?usp=sharing" }
       ]
     },
     {
-      title: "Manajemen Produk - Unit Layanan Aduan Surakarta (ULAS)",
-      category: "Manajemen Produk & UI/UX",
+      title: "Unit Layanan Aduan Surakarta (ULAS)",
+      category: "Product Management",
       description: "Peningkatan desain dan manajemen produk untuk platform ULAS selama masa magang di Diskominfo SP Kota Surakarta. Proyek ini mendemonstrasikan proses penerjemahan kebutuhan regulasi pemerintah menjadi prototipe antarmuka interaktif yang dipresentasikan melalui presentasi (slideshow) resmi kepada instansi.",
       iframeSrc: "https://embed.figma.com/proto/XNQPbkSr7A5y2u8AfZZEqM/ULAS-Surakarta-v2?page-id=0%3A1&node-id=1-4&starting-point-node-id=1%3A4&embed-host=share",
       links: [
@@ -68,9 +68,9 @@ projects: [
       ]
     },
     {
-      title: "Manajemen Produk - Sirekap Mobile",
-      category: "Manajemen Produk & UI/UX",
-      description: "Analisis dan evaluasi komprehensif terhadap Antarmuka Pengguna (UI) dan Pengalaman Pengguna (UX) dari aplikasi Sirekap Mobile menggunakan metodologi Design Thinking. Disusun sebagai skripsi untuk gelar Sarjana Ilmu Komputer di Universitas Sebelas Maret (UNS). Mencakup laporan akademis dan prototipe evaluasi interaktif.",
+      title: "Sirekap Mobile",
+      category: "Product Management",
+      description: "Analisis dan evaluasi komprehensif terhadap Antarmuka Pengguna (UI) dan Pengalaman Pengguna (UX) dari aplikasi Sirekap Mobile menggunakan metodologi Design Thinking. Disusun sebagai skripsi untuk gelar Sarjana Informatika di Universitas Sebelas Maret (UNS). Mencakup laporan akademis dan prototipe evaluasi interaktif.",
       iframeSrc: "https://embed.figma.com/proto/a8m0v61sdR6KXOkixoDPlj/Prototype-Sirekap-Mobile-Skripsi?node-id=1-5&page-id=0%3A1&starting-point-node-id=1%3A5&embed-host=share",
       links: [
         { name: "Baca Skripsi", url: "https://drive.google.com/file/d/1YoSd0XaVtTohX8BXreJ7NQplL0lUrS7J/view?usp=sharing" }
@@ -81,7 +81,7 @@ projects: [
     {
       degree: "Sarjana Informatika",
       institution: "Universitas Sebelas Maret (UNS)",
-      period: "2019 - 2025 (Lulus Juli 2025)",
+      period: "2019 - 2025",
       logo: "https://uns.ac.id/id/wp-content/uploads/2023/06/cropped-logo-uns-biru-1-300x300.png",
       details: "Skripsi: Analisis dan Evaluasi Antarmuka Pengguna (UI) dan Pengalaman Pengguna (UX) Aplikasi Sirekap Mobile Menggunakan Design Thinking (DT)."
     },
@@ -116,7 +116,7 @@ projects: [
     },
     { 
       title: "Final Courses and Certificate Project Management", 
-      issuer: "Fresh Graduate Academy (Digital Talent Scholarship)", 
+      issuer: "Digital Talent Scholarship (Digitalent)", 
       date: "Desember 2025",
       image: "https://media.licdn.com/dms/image/v2/D562DAQHMBEsuJUfQkw/profile-treasury-document-images_1280/B56Ztt7IS8G0AU-/1/1767075778382?e=1783555200&v=beta&t=_KAl11PGGVfFp6uNqClchJiJFtMT188nh3PSNT3o6ZI"
     },
@@ -128,13 +128,13 @@ projects: [
     },
     { 
       title: "Project Management Intermediate", 
-      issuer: "Fresh Graduate Academy (Digital Talent Scholarship / Digitalent)", 
+      issuer: "Digital Talent Scholarship (Digitalent)", 
       date: "November 2025",
       image: "https://media.licdn.com/dms/image/v2/D562DAQFBkAjHswPyeg/profile-treasury-document-images_1280/B56Ztt88SnGwAU-/1/1767076253388?e=1783555200&v=beta&t=9mQ2vTZJE0XrmCCd26Kt3UDtV0A2czeg8Xa9JJ-R96w"
     },
     { 
       title: "Fundamental Project Management", 
-      issuer: "Digital Talent Scholarship", 
+      issuer: "Digital Talent Scholarship (Digitalent)", 
       date: "Agustus 2025 - Desember 2025",
       image: "https://media.licdn.com/dms/image/v2/D562DAQEG5Il6vsweeQ/profile-treasury-document-cover-images_1920/B56ZjmuKs5G4BM-/0/1756217522432?e=1783414800&v=beta&t=FPj9OThSUoYWzvuRc1y5c6oYTocAu984sjPSQOxOIP0"
     },
@@ -155,14 +155,14 @@ projects: [
     { role: "Koordinator Kecamatan", organization: "Kuliah Kerja Nyata (KKN), Universitas Sebelas Maret", period: "Juli - Agustus 2024" },
     { role: "Staf Hubungan Masyarakat", organization: "UNS Esport Community (UNSEC), Universitas Sebelas Maret", period: "November 2021 - Januari 2023" },
     { role: "Bendahara", organization: "Pramuka UNS, Universitas Sebelas Maret", period: "Januari 2021 - Januari 2022" },
-    { role: "Staf Hubungan Masyarakat", organization: "Jamaah Nurul Huda Unit Kegiatan Mahasiswa Islam UNS (JN UKMI UNS), Universitas Sebelas Maret", period: "Januari 2020 - Januari 2021" },
-    { role: "Staf Sponsor", organization: "Sebelas Maret Islamic Festival (SIFT), Universitas Sebelas Maret", period: "2020" },
-    { role: "Staf Logistik", organization: "Expo UKM UNS, Universitas Sebelas Maret", period: "Mei - September 2020" }
+    { role: "Staf Sponsor", organization: "Sebelas Maret Islamic Festival (SIFT), Universitas Sebelas Maret", period: "Juni - Oktober 2020" },
+    { role: "Staf Logistik", organization: "Expo UKM UNS, Universitas Sebelas Maret", period: "Mei - September 2020" },
+    { role: "Staf Hubungan Masyarakat", organization: "Jamaah Nurul Huda Unit Kegiatan Mahasiswa Islam UNS (JN UKMI UNS), Universitas Sebelas Maret", period: "Januari 2020 - Januari 2021" }
   ],
   skills: [
     {
-      category: "Manajemen Produk & Proyek",
-      items: ["Peta Jalan Produk", "Prioritas Backlog", "Dokumen Kebutuhan Produk (PRD)", "Perencanaan Sprint", "Agile/Scrum", "Waterfall", "Siklus Hidup Pengembangan Sistem (SDLC)", "Pengujian QA", "KPI/OKR", "Pelacakan Tonggak Pencapaian", "Manajemen Risiko", "Go-to-Market", "Jira", "Trello", "Google Workspace"]
+      category: "Product & Project Management",
+      items: ["Product Roadmap", "Prioritas Backlog", "Product Requirements Document (PRD)", "Perencanaan Sprint", "Agile/Scrum", "Waterfall", "Software Development Life Cycle (SDLC)", "Pengujian QA", "KPI/OKR", "Pelacakan Milestone", "Manajemen Risiko", "Go-to-Market", "Jira", "Trello", "Google Workspace"]
     },
     {
       category: "Antarmuka & Pengalaman Pengguna (UI/UX)",

@@ -13,7 +13,8 @@ const Navbar = () => {
           <li><a href="#proyek">Proyek</a></li>
           <li><a href="#keahlian">Keahlian</a></li>
           <li><a href="#pendidikan">Pendidikan</a></li>
-          <li><a href="#pencapaian">Pencapaian</a></li>
+          <li><a href="#sertifikasi">Sertifikasi</a></li>
+          <li><a href="#organisasi">Organisasi</a></li>
         </ul>
         <a href="#kontak" className="tombol">Hubungi Saya</a>
       </nav>

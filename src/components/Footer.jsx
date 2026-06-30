@@ -8,7 +8,7 @@ const Footer = ({ data }) => {
         Saya terbuka untuk diskusi profesional dan peluang baru di bidang teknologi informasi.
       </p>
       <div className="tautan-sosial">
-        <a href={`mailto:${data.email}`} className="tombol primer">Kirim Surel Elektronis</a>
+        <a href={`mailto:${data.email}`} className="tombol primer">Kirim Surel</a>
         <a href={data.linkedin} target="_blank" rel="noreferrer" className="tombol">Kunjungi LinkedIn</a>
       </div>
       <p className="hak-cipta">

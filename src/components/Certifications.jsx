@@ -2,7 +2,7 @@ import React from 'react';
 
 const Certifications = ({ data }) => {
   return (
-    <div>
+    <section id="sertifikasi" className="wadah-seksi">
       <h2>Sertifikasi & Lisensi Profesional</h2>
       <div className="kisi-sertifikasi">
         {data.map((cert, index) => (
@@ -21,7 +21,7 @@ const Certifications = ({ data }) => {
           </article>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

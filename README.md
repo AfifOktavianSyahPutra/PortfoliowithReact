@@ -6,4 +6,4 @@ Situs web portofolio personal yang dibangun menggunakan React, HTML, dan CSS mur
 1. Pastikan Node.js telah terpasang pada sistem.
 2. Jalankan perintah `npm install` pada terminal untuk mengunduh seluruh dependensi.
 3. Jalankan perintah `npm start` untuk memulai peladen (server) pengembangan lokal.
-4. Akses `http://localhost:3000` melalui peramban web.
+4. Akses `http://localhost:0110` melalui peramban web.

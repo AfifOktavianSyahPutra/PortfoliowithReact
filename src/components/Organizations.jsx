@@ -2,11 +2,11 @@ import React from 'react';
 
 const Organizations = ({ data }) => {
   return (
-    <div>
+    <section id="organisasi" className="wadah-seksi latar-alternatif">
       <h2>Pengalaman Organisasi Kampus</h2>
       <div className="kisi-daftar">
         {data.map((org, index) => (
-          <div key={index} className="item-daftar">
+          <article key={index} className="item-daftar">
             <div className="kepala-daftar">
               {org.logo && <img src={org.logo} alt={`Logo ${org.organization}`} className="logo-daftar" loading="lazy" />}
               <div className="info-daftar">
@@ -15,10 +15,10 @@ const Organizations = ({ data }) => {
                 <span className="periode-organisasi">{org.period}</span>
               </div>
             </div>
-          </div>
+          </article>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

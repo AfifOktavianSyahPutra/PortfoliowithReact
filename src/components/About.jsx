@@ -16,7 +16,7 @@ const About = ({ data }) => {
               <span>{data.info.location}</span>
             </li>
             <li>
-              <strong>Surel Elektronis</strong>
+              <strong>Surel</strong>
               <span><a href={`mailto:${data.info.email}`}>{data.info.email}</a></span>
             </li>
             <li>

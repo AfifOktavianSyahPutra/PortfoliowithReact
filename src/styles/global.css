@@ -231,29 +231,41 @@ h2::after {
 
 .daftar-info {
   list-style: none;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.25rem;
 }
 
 .daftar-info li {
   background: var(--warna-latar);
-  padding: 1rem;
-  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+  border-radius: 8px;
   border: 1px solid var(--warna-batas);
+  box-shadow: var(--bayangan-kartu);
+  transition: var(--transisi);
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.daftar-info li:hover {
+  border-color: var(--warna-aksen);
+  box-shadow: var(--bayangan-kartu-hover);
+  transform: translateY(-3px);
 }
 
 .daftar-info strong {
   display: block;
   color: var(--warna-teks-utama);
-  font-size: 0.9rem;
-  margin-bottom: 0.25rem;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
-.daftar-info span {
+.daftar-info span, .daftar-info a {
   color: var(--warna-teks-redup);
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 /* Garis Waktu (Pengalaman & Pendidikan) */

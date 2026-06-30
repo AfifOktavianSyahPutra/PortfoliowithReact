@@ -22,12 +22,8 @@ function App() {
         <Projects data={portfolioData.projects} />
         <Skills data={portfolioData.skills} />
         <Education data={portfolioData.education} />
-        
-        <section id="pencapaian" className="wadah-seksi latar-alternatif">
-          <Certifications data={portfolioData.certifications} />
-          <div className="pemisah-seksi" aria-hidden="true"></div>
-          <Organizations data={portfolioData.organizations} />
-        </section>
+        <Certifications data={portfolioData.certifications} />
+        <Organizations data={portfolioData.organizations} />
       </main>
       <Footer data={portfolioData.personalInfo} />
     </>
