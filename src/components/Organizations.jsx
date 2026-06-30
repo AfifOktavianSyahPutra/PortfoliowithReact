@@ -6,10 +6,15 @@ const Organizations = ({ data }) => {
       <h2>Pengalaman Organisasi Kampus</h2>
       <div className="kisi-daftar">
         {data.map((org, index) => (
-          <div key={index} className="item-daftar" style={{ borderLeftColor: 'var(--warna-teks-redup)' }}>
-            <h4 style={{ color: 'var(--warna-teks-utama)', fontSize: '1.1rem', marginBottom: '0.5rem' }}>{org.role}</h4>
-            <p style={{ color: 'var(--warna-teks-redup)', fontSize: '0.95rem', marginBottom: '0.25rem' }}>{org.organization}</p>
-            <span style={{ color: 'var(--warna-teks-redup)', fontSize: '0.85rem' }}>{org.period}</span>
+          <div key={index} className="item-daftar">
+            <div className="kepala-daftar">
+              {org.logo && <img src={org.logo} alt={`Logo ${org.organization}`} className="logo-daftar" loading="lazy" />}
+              <div className="info-daftar">
+                <h4 className="judul-organisasi">{org.role}</h4>
+                <p className="nama-organisasi">{org.organization}</p>
+                <span className="periode-organisasi">{org.period}</span>
+              </div>
+            </div>
           </div>
         ))}
       </div>

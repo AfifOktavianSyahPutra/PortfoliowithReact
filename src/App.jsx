@@ -25,7 +25,7 @@ function App() {
         
         <section id="pencapaian" className="wadah-seksi latar-alternatif">
           <Certifications data={portfolioData.certifications} />
-          <div style={{ margin: '5rem 0' }} aria-hidden="true"></div>
+          <div className="pemisah-seksi" aria-hidden="true"></div>
           <Organizations data={portfolioData.organizations} />
         </section>
       </main>

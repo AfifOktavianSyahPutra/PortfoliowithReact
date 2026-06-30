@@ -7,10 +7,19 @@ const Education = ({ data }) => {
       <div className="garis-waktu" role="list">
         {data.map((edu, index) => (
           <article key={index} className="item-waktu" role="listitem">
-            <time className="tanggal-waktu">{edu.period}</time>
-            <h3 className="judul-waktu">{edu.degree}</h3>
-            <h4 className="subjudul-waktu">{edu.institution}</h4>
-            {edu.details && <p className="deskripsi-waktu">{edu.details}</p>}
+            <div className="kepala-waktu">
+              {edu.logo && <img src={edu.logo} alt={`Logo ${edu.institution}`} className="logo-waktu" loading="lazy" />}
+              <div className="info-waktu">
+                <time className="tanggal-waktu">{edu.period}</time>
+                <h3 className="judul-waktu">{edu.degree}</h3>
+                <h4 className="subjudul-waktu">{edu.institution}</h4>
+              </div>
+            </div>
+            {edu.details && (
+              <div className="deskripsi-waktu">
+                <p>{edu.details}</p>
+              </div>
+            )}
           </article>
         ))}
       </div>

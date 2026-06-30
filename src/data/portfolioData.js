@@ -1,104 +1,161 @@
 export const portfolioData = {
   personalInfo: {
     name: "Afif Oktavian Syah Putra",
-    titles: ["Manajer Produk TI", "Manajer Proyek TI", "Konsultan TI", "Administrator Jaringan"],
-    tagline: "Tetap Kreatif dan Inovatif",
+    titles: ["IT Product Manager Applicant",],
+    tagline: "Keep Creative and Innovative",
     location: "Jakarta, Indonesia",
     email: "afifoktaviansyahputra@gmail.com",
     phone: "+6281228032747",
     linkedin: "https://www.linkedin.com/in/oktava8/",
-    profileImage: "https://via.placeholder.com/400x400.png?text=Foto+Profil+Afif",
+    profileImage: "https://media.licdn.com/dms/image/v2/D5635AQE9PjqOhPnirQ/profile-framedphoto-shrink_800_800/B56Z1IPVMJGwAg-/0/1775033472097?e=1783411200&v=beta&t=W6gGnJJipCoF6rCx3xvcPS994eozU0cjxm2tW551brI",
   },
   summary: "Lulusan Sarjana Ilmu Komputer dari Universitas Sebelas Maret dengan pengalaman praktis sebagai Manajer Produk TI di detikcom dan Diskominfo SP Kota Surakarta. Memiliki keahlian mendalam dalam penyusunan peta jalan produk, Dokumen Kebutuhan Produk (PRD), Agile/Scrum, perancangan Figma, manajemen pemangku kepentingan, dan konsultasi TI. Tersertifikasi sebagai Manajer Proyek dari Google dan Administrator Jaringan Junior dari BNSP dengan fondasi yang kuat dalam infrastruktur dan sistem teknis.",
   experience: [
     {
-      role: "Manajer Produk Teknologi Informasi (Pemagang)",
+      role: "IT Product Manager Intern",
       company: "PT Trans Digital Media (detikcom)",
       period: "November 2025 - Mei 2026",
-      description: "Mengelola seluruh siklus hidup produk TI mulai dari tahap awal pengembangan, pengujian Jaminan Mutu (QA), hingga implementasi teknis. Bertanggung jawab dalam mendefinisikan dan memelihara peta jalan produk serta backlog, menyusun Dokumen Kebutuhan Produk (PRD), dan menyelaraskan tujuan tim pengembangan dengan target bisnis perusahaan. Memanfaatkan riset pengguna dan analisis kompetitor untuk merumuskan strategi produk berbasis data. Turut merancang wireframe Figma dengan fidelitas rendah untuk mendefinisikan alur pengguna, serta menyusun presentasi bagi pemangku kepentingan dan panduan pengguna guna meningkatkan efisiensi operasional dan mempercepat tingkat adopsi produk."
+      logo: "https://media.licdn.com/dms/image/v2/C4D0BAQFUAgJugB7P_w/company-logo_200_200/company-logo_200_200/0/1631334240991?e=1784160000&v=beta&t=TlfqbWXX2RyDzFrB0O9iUr5wXszDa8juRXWvi1rbvWw",
+      description: [
+        "Mengelola seluruh siklus hidup produk TI, mencakup tahap pengembangan, pengujian Jaminan Mutu (QA), hingga implementasi teknis.",
+        "Mendefinisikan dan memelihara peta jalan produk beserta backlog untuk menyelaraskan tujuan tim pengembangan dengan target bisnis.",
+        "Menyusun Dokumen Kebutuhan Produk (PRD) guna memastikan kejelasan spesifikasi antar tim pengembang dan bisnis.",
+        "Melaksanakan riset pengguna dan analisis kompetitor untuk merumuskan strategi produk yang berbasis data.",
+        "Merancang wireframe Figma dengan fidelitas rendah untuk mendefinisikan alur pengguna dan proses otomatisasi.",
+        "Menyusun salindia presentasi bagi pemangku kepentingan dan panduan pengguna guna meningkatkan efisiensi operasional dan tingkat adopsi produk."
+      ]
     },
     {
-      role: "Manajer Produk Teknologi Informasi (Pemagang)",
+      role: "IT Product Manager Intern",
       company: "Dinas Komunikasi Informatika Statistik dan Persandian (Diskominfo SP) Kota Surakarta",
       period: "Mei 2025 - Juni 2025",
-      description: "Memimpin proyek peningkatan platform layanan Unit Layanan Aduan Surakarta (ULAS) melalui pendekatan Design Thinking. Menerjemahkan kebutuhan pengguna dan instansi pemerintah ke dalam spesifikasi teknis yang mematuhi Peraturan Wali Kota (Perwali) Surakarta No. 8.1/2023. Mengidentifikasi berbagai peluang optimasi sistem melalui konsultasi intensif dengan pemangku kepentingan dan mengembangkan prototipe Figma dengan fidelitas tinggi. Prototipe ini dipresentasikan secara langsung kepada para pejabat pemerintahan, mendorong pengambilan keputusan produk yang berpusat pada manusia (human-centered) di dalam lingkungan sektor publik yang memiliki regulasi ketat."
+      logo: "https://diskominfosp.surakarta.go.id/displayFileFe/setting/caec177d-cff2-4d73-b496-c1426c126070.png",
+      description: [
+        "Menerjemahkan kebutuhan pengguna dan instansi pemerintah ke dalam spesifikasi teknis untuk platform Unit Layanan Aduan Surakarta (ULAS) sesuai dengan Peraturan Wali Kota Surakarta No. 8.1/2023.",
+        "Menerapkan metodologi Design Thinking untuk mengidentifikasi berbagai peluang optimasi sistem melalui konsultasi dengan pemangku kepentingan.",
+        "Mengembangkan prototipe Figma dengan fidelitas tinggi dan mempresentasikannya kepada pejabat pemerintahan guna mendorong keputusan produk yang berpusat pada manusia di dalam sektor publik."
+      ]
     },
     {
       role: "Kelompok Penyelenggara Pemungutan Suara (KPPS)",
       company: "Komisi Pemilihan Umum Republik Indonesia (KPU RI)",
       period: "Januari 2024 - Februari 2024",
-      description: "Bertanggung jawab atas integritas data dan transparansi publik melalui pengelolaan entri data digital secara waktu nyata (real-time) menggunakan aplikasi Sirekap Mobile. Mengarahkan operasional Tempat Pemungutan Suara (TPS) dari tahap persiapan hingga penyelesaian agar sepenuhnya mematuhi Peraturan KPU (PKPU) No. 8/2022. Menyusun, memverifikasi, dan menyerahkan dokumentasi resmi hasil pemilihan kepada otoritas pemilihan terkait secara akurat."
+      logo: "https://media.licdn.com/dms/image/v2/C560BAQHSJVStwYgU1g/company-logo_200_200/company-logo_200_200/0/1630657568276?e=1784160000&v=beta&t=wBQM3m2dlp1vh-phHAgvXtj0vBkIJWCfZ2mTHbMN2Q8",
+      description: [
+        "Menjaga integritas data dan transparansi publik melalui pengelolaan entri data digital secara waktu nyata (real-time) menggunakan aplikasi Sirekap Mobile.",
+        "Mengarahkan operasional Tempat Pemungutan Suara (TPS) secara menyeluruh agar mematuhi Peraturan KPU (PKPU) No. 8/2022.",
+        "Menyusun, memverifikasi, dan menyerahkan dokumentasi resmi hasil pemilihan secara akurat kepada otoritas terkait."
+      ]
     }
   ],
 projects: [
     {
       title: "Manajemen Produk - minidetik",
-      category: "Manajemen Produk",
+      category: "Manajemen Produk & UI/UX",
       description: "Proyek manajemen produk untuk minidetik (Agregator Tautan detikcom) yang dilaksanakan selama masa magang di PT Trans Digital Media (detikcom). Menghasilkan Dokumen Kebutuhan Produk (PRD) yang komprehensif dan desain prototipe interaktif untuk memvalidasi alur agregasi konten.",
       iframeSrc: "https://embed.figma.com/proto/Mxlu3vuZGCk75JRpJGMaIB/Wireframe-minidetik--detiknetwork-s-Link-in-Bio-?page-id=0%3A1&node-id=108-2&starting-point-node-id=108%3A2&show-proto-sidebar=1&embed-host=share",
       links: [
-        { name: "Baca PRD", url: "#" }
+        { name: "Baca PRD", url: "https://docs.google.com/document/d/1x6knJQGtRYcJDo56vQl0tvA4sEfxmNwK3HzUj5H8jsU/edit?usp=sharing" }
       ]
     },
     {
       title: "Manajemen Produk - Unit Layanan Aduan Surakarta (ULAS)",
       category: "Manajemen Produk & UI/UX",
-      description: "Peningkatan desain dan manajemen produk untuk platform ULAS selama masa magang di Diskominfo SP Kota Surakarta. Proyek ini mendemonstrasikan proses penerjemahan kebutuhan regulasi pemerintah menjadi prototipe antarmuka interaktif yang dipresentasikan melalui salindia (slideshow) resmi kepada instansi.",
+      description: "Peningkatan desain dan manajemen produk untuk platform ULAS selama masa magang di Diskominfo SP Kota Surakarta. Proyek ini mendemonstrasikan proses penerjemahan kebutuhan regulasi pemerintah menjadi prototipe antarmuka interaktif yang dipresentasikan melalui presentasi (slideshow) resmi kepada instansi.",
       iframeSrc: "https://embed.figma.com/proto/XNQPbkSr7A5y2u8AfZZEqM/ULAS-Surakarta-v2?page-id=0%3A1&node-id=1-4&starting-point-node-id=1%3A4&embed-host=share",
       links: [
-        { name: "Lihat Salindia (Slideshow)", url: "#" }
+        { name: "Lihat Presentasi (Slideshow)", url: "https://www.figma.com/deck/crfZR7zEI1rL4oxmv2W4bf/PPT-Seminar-Magang?node-id=85-961&t=Ahf4IhXBe0IKxBqA-1" }
       ]
     },
     {
       title: "Manajemen Produk - Sirekap Mobile",
-      category: "UI/UX & Manajemen Produk",
+      category: "Manajemen Produk & UI/UX",
       description: "Analisis dan evaluasi komprehensif terhadap Antarmuka Pengguna (UI) dan Pengalaman Pengguna (UX) dari aplikasi Sirekap Mobile menggunakan metodologi Design Thinking. Disusun sebagai skripsi untuk gelar Sarjana Ilmu Komputer di Universitas Sebelas Maret (UNS). Mencakup laporan akademis dan prototipe evaluasi interaktif.",
       iframeSrc: "https://embed.figma.com/proto/a8m0v61sdR6KXOkixoDPlj/Prototype-Sirekap-Mobile-Skripsi?node-id=1-5&page-id=0%3A1&starting-point-node-id=1%3A5&embed-host=share",
       links: [
-        { name: "Baca Skripsi", url: "#" }
+        { name: "Baca Skripsi", url: "https://drive.google.com/file/d/1YoSd0XaVtTohX8BXreJ7NQplL0lUrS7J/view?usp=sharing" }
       ]
     }
   ],
   education: [
     {
-      degree: "Sarjana Ilmu Komputer",
+      degree: "Sarjana Informatika",
       institution: "Universitas Sebelas Maret (UNS)",
       period: "2019 - 2025 (Lulus Juli 2025)",
-      details: "IPK: 3.25. Skripsi: Analisis dan Evaluasi Antarmuka Pengguna (UI) dan Pengalaman Pengguna (UX) Aplikasi Sirekap Mobile Menggunakan Design Thinking (DT)."
+      logo: "https://uns.ac.id/id/wp-content/uploads/2023/06/cropped-logo-uns-biru-1-300x300.png",
+      details: "Skripsi: Analisis dan Evaluasi Antarmuka Pengguna (UI) dan Pengalaman Pengguna (UX) Aplikasi Sirekap Mobile Menggunakan Design Thinking (DT)."
     },
     {
-      degree: "Ilmu Pengetahuan Alam dan Matematika",
+      degree: "Sekolah Menengah Atas",
       institution: "SMA Negeri 5 Purwokerto",
       period: "2016 - 2019",
-      details: ""
+      logo: "https://sman5purwokerto.sch.id/media_library/images/fa7abaacce41e19bc947041f56dcd237.png",
+      details: "Jurusan Ilmu Pengetahuan Alam (IPA)."
     },
     {
       degree: "Sekolah Menengah Pertama",
       institution: "SMP Negeri 8 Purwokerto",
       period: "2013 - 2016",
+      logo: "https://smpn8purwokerto.sch.id/wp-content/uploads/2024/09/LOGO-SMP-8-NEW.png",
       details: ""
     },
     {
       degree: "Sekolah Dasar",
       institution: "SD Terpadu Putra Harapan",
       period: "2007 - 2013",
+      logo: "https://sd.putra-harapan.sch.id/favicon.jpg",
       details: ""
     }
   ],
   certifications: [
-    { title: "Google Project Management (Spesialisasi)", issuer: "Coursera (Google)", date: "Desember 2025" },
-    { title: "Google AI Essentials", issuer: "Coursera (Google)", date: "November 2025" },
-    { title: "Project Management Intermediate", issuer: "Fresh Graduate Academy (Digital Talent Scholarship / Digitalent)", date: "November 2025" },
-    { title: "Final Courses and Certificate Project Management", issuer: "Fresh Graduate Academy (Digital Talent Scholarship)", date: "Desember 2025" },
-    { title: "Project Management", issuer: "Digital Talent Scholarship", date: "Agustus 2025 - Desember 2025" },
-    { title: "Junior Network Administrator", issuer: "Badan Nasional Sertifikasi Profesi (BNSP)", date: "Juni 2025" },
-    { title: "Cybersecurity Essentials", issuer: "Cisco Networking Academy", date: "Juni 2024" }
+    { 
+      title: "Google Project Management", 
+      issuer: "Coursera (Google)", 
+      date: "Desember 2025",
+      image: "https://media.licdn.com/dms/image/v2/D562DAQHr3QIIIM0nXg/profile-treasury-document-images_1280/B56Ztt8b08HAAU-/1/1767076119741?e=1783555200&v=beta&t=IZHFYInIMKACQl7pdcAaDxK7zosQRSP18aijcJuiCkU"
+    },
+    { 
+      title: "Final Courses and Certificate Project Management", 
+      issuer: "Fresh Graduate Academy (Digital Talent Scholarship)", 
+      date: "Desember 2025",
+      image: "https://media.licdn.com/dms/image/v2/D562DAQHMBEsuJUfQkw/profile-treasury-document-images_1280/B56Ztt7IS8G0AU-/1/1767075778382?e=1783555200&v=beta&t=_KAl11PGGVfFp6uNqClchJiJFtMT188nh3PSNT3o6ZI"
+    },
+    { 
+      title: "Google AI Essentials", 
+      issuer: "Coursera (Google)", 
+      date: "November 2025",
+      image: "https://media.licdn.com/dms/image/v2/D562DAQF1vpfy4H53OQ/profile-treasury-document-images_1280/B56Zwiaje.HcAY-/1/1770103915062?e=1783555200&v=beta&t=BRgIV3baboPr0vP8J1oK5N7kRmCJCie6G6Y1q8KP9T0"
+    },
+    { 
+      title: "Project Management Intermediate", 
+      issuer: "Fresh Graduate Academy (Digital Talent Scholarship / Digitalent)", 
+      date: "November 2025",
+      image: "https://media.licdn.com/dms/image/v2/D562DAQFBkAjHswPyeg/profile-treasury-document-images_1280/B56Ztt88SnGwAU-/1/1767076253388?e=1783555200&v=beta&t=9mQ2vTZJE0XrmCCd26Kt3UDtV0A2czeg8Xa9JJ-R96w"
+    },
+    { 
+      title: "Fundamental Project Management", 
+      issuer: "Digital Talent Scholarship", 
+      date: "Agustus 2025 - Desember 2025",
+      image: "https://media.licdn.com/dms/image/v2/D562DAQEG5Il6vsweeQ/profile-treasury-document-cover-images_1920/B56ZjmuKs5G4BM-/0/1756217522432?e=1783414800&v=beta&t=FPj9OThSUoYWzvuRc1y5c6oYTocAu984sjPSQOxOIP0"
+    },
+    { 
+      title: "Junior Network Administrator", 
+      issuer: "Badan Nasional Sertifikasi Profesi (BNSP)", 
+      date: "Juni 2025",
+      image: "https://media.licdn.com/dms/image/v2/D562DAQF-gGWN20CgEQ/profile-treasury-document-images_1280/B56ZiTy44bHkAU-/1/1754826249972?e=1783555200&v=beta&t=RCCUJrYfm3rAKZMYLgmjjAUb0WhYFrHEOKbA6sYQ_X0"
+    },
+    { 
+      title: "Cybersecurity Essentials", 
+      issuer: "Cisco Networking Academy", 
+      date: "Juni 2024",
+      image: "https://media.licdn.com/dms/image/v2/D562DAQGABaMHAU6Mfw/profile-treasury-document-images_1280/profile-treasury-document-images_1280/1/1714696278079?e=1783555200&v=beta&t=D_SZ_UjypXB0ciyR144oL2oB3i6-0NnzHNNN5HiABL0"
+    }
   ],
   organizations: [
-    { role: "Koordinator Distrik - Program Kuliah Kerja Nyata (KKN)", organization: "Universitas Sebelas Maret", period: "Juli - Agustus 2024" },
-    { role: "Staf Hubungan Masyarakat", organization: "UNS Esport Community (UNSEC)", period: "November 2021 - Januari 2023" },
-    { role: "Bendahara", organization: "Pramuka UNS (Gerakan Pramuka)", period: "Januari 2021 - Januari 2022" },
-    { role: "Staf Hubungan Masyarakat", organization: "Jamaah Nurul Huda Unit Kegiatan Mahasiswa Islam UNS (JN UKMI UNS)", period: "Januari 2020 - Januari 2021" },
+    { role: "Koordinator Kecamatan", organization: "Kuliah Kerja Nyata (KKN), Universitas Sebelas Maret", period: "Juli - Agustus 2024" },
+    { role: "Staf Hubungan Masyarakat", organization: "UNS Esport Community (UNSEC), Universitas Sebelas Maret", period: "November 2021 - Januari 2023" },
+    { role: "Bendahara", organization: "Pramuka UNS, Universitas Sebelas Maret", period: "Januari 2021 - Januari 2022" },
+    { role: "Staf Hubungan Masyarakat", organization: "Jamaah Nurul Huda Unit Kegiatan Mahasiswa Islam UNS (JN UKMI UNS), Universitas Sebelas Maret", period: "Januari 2020 - Januari 2021" },
     { role: "Staf Sponsor", organization: "Sebelas Maret Islamic Festival (SIFT), Universitas Sebelas Maret", period: "2020" },
     { role: "Staf Logistik", organization: "Expo UKM UNS, Universitas Sebelas Maret", period: "Mei - September 2020" }
   ],

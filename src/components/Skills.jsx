@@ -7,7 +7,7 @@ const Skills = ({ data }) => {
       <div className="kisi-keahlian">
         {data.map((skillGroup, index) => (
           <div key={index} className="kategori-keahlian">
-            <h3 style={{ fontSize: '1.25rem', marginBottom: '0.5rem' }}>{skillGroup.category}</h3>
+            <h3 className="judul-kategori">{skillGroup.category}</h3>
             <div className="tag-keahlian">
               {skillGroup.items.map((item, idx) => (
                 <span key={idx} className="tag">{item}</span>
