@@ -79,28 +79,28 @@ projects: [
   ],
   education: [
     {
-      degree: "Sarjana Informatika",
+      degree: "Sarjana Komputer (S.Kom)",
       institution: "Universitas Sebelas Maret (UNS)",
       period: "2019 - 2025",
       logo: "https://uns.ac.id/id/wp-content/uploads/2023/06/cropped-logo-uns-biru-1-300x300.png",
-      details: "Skripsi: Analisis dan Evaluasi Antarmuka Pengguna (UI) dan Pengalaman Pengguna (UX) Aplikasi Sirekap Mobile Menggunakan Design Thinking (DT)."
+      details: "Jurusan: Informatika. Skripsi: Analisis dan Evaluasi Antarmuka Pengguna (UI) dan Pengalaman Pengguna (UX) Aplikasi Sirekap Mobile Menggunakan Design Thinking (DT)."
     },
     {
-      degree: "Sekolah Menengah Atas",
+      degree: "Sekolah Menengah Atas (SMA)",
       institution: "SMA Negeri 5 Purwokerto",
       period: "2016 - 2019",
       logo: "https://sman5purwokerto.sch.id/media_library/images/fa7abaacce41e19bc947041f56dcd237.png",
-      details: "Jurusan Ilmu Pengetahuan Alam (IPA)."
+      details: "Jurusan: Ilmu Pengetahuan Alam (IPA)."
     },
     {
-      degree: "Sekolah Menengah Pertama",
+      degree: "Sekolah Menengah Pertama (SMP)",
       institution: "SMP Negeri 8 Purwokerto",
       period: "2013 - 2016",
       logo: "https://smpn8purwokerto.sch.id/wp-content/uploads/2024/09/LOGO-SMP-8-NEW.png",
       details: ""
     },
     {
-      degree: "Sekolah Dasar",
+      degree: "Sekolah Dasar (SD)",
       institution: "SD Terpadu Putra Harapan",
       period: "2007 - 2013",
       logo: "https://sd.putra-harapan.sch.id/favicon.jpg",
