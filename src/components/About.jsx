@@ -1,32 +1,31 @@
-import React from 'react';
+import Section from './Section';
 
 const About = ({ data }) => {
   return (
-    <section id="tentang" className="wadah-seksi latar-alternatif">
-      <h2>Tentang Saya</h2>
-      <div className="kisi-tentang">
-        <div className="gambar-tentang">
-          <img src={data.info.profileImage} alt={`Potret profesional ${data.info.name}`} loading="lazy" />
+    <Section id="about" title="About Me" variant="alternate">
+      <div className="about-grid">
+        <div className="about-image">
+          <img src={data.info.profileImage} alt={`Professional portrait of ${data.info.name}`} loading="lazy" />
         </div>
-        <div className="teks-tentang">
+        <div className="about-text">
           <p>{data.summary}</p>
-          <ul className="daftar-info">
+          <ul className="info-list">
             <li>
-              <strong>Lokasi</strong>
+              <strong>Location</strong>
               <span>{data.info.location}</span>
             </li>
             <li>
-              <strong>Surel</strong>
+              <strong>Email</strong>
               <span><a href={`mailto:${data.info.email}`}>{data.info.email}</a></span>
             </li>
             <li>
-              <strong>Nomor Telepon</strong>
+              <strong>Phone</strong>
               <span>{data.info.phone}</span>
             </li>
           </ul>
         </div>
       </div>
-    </section>
+    </Section>
   );
 };
 

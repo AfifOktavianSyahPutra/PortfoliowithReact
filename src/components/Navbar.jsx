@@ -1,24 +1,25 @@
-import React from 'react';
-
 const Navbar = () => {
   return (
-    <header>
-      <nav className="navigasi" aria-label="Navigasi Utama">
-        <div className="logo-navigasi">
-          Putra<span>.</span>
-        </div>
-        <ul className="tautan-navigasi">
-          <li><a href="#tentang">Tentang</a></li>
-          <li><a href="#pengalaman">Pengalaman</a></li>
-          <li><a href="#proyek">Proyek</a></li>
-          <li><a href="#keahlian">Keahlian</a></li>
-          <li><a href="#pendidikan">Pendidikan</a></li>
-          <li><a href="#sertifikasi">Sertifikasi</a></li>
-          <li><a href="#organisasi">Organisasi</a></li>
-        </ul>
-        <a href="#kontak" className="tombol">Hubungi Saya</a>
-      </nav>
-    </header>
+    <>
+      <a href="#main-content" className="skip-link">Skip to content</a>
+      <header>
+        <nav className="navigation" aria-label="Main Navigation">
+          <a href="#home" className="logo-navigation" aria-label="Go to home">
+            Putra<span>.</span>
+          </a>
+          <ul className="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#organizations">Organizations</a></li>
+          </ul>
+          <a href="#contact" className="button">Contact Me</a>
+        </nav>
+      </header>
+    </>
   );
 };
 

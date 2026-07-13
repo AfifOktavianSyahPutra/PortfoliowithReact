@@ -1,22 +1,21 @@
-import React from 'react';
+import Section from './Section';
 
 const Skills = ({ data }) => {
   return (
-    <section id="keahlian" className="wadah-seksi">
-      <h2>Keahlian Teknis & Profesional</h2>
-      <div className="kisi-keahlian">
+    <Section id="skills" title="Technical & Professional Skills">
+      <div className="skills-grid">
         {data.map((skillGroup, index) => (
-          <div key={index} className="kategori-keahlian">
-            <h3 className="judul-kategori">{skillGroup.category}</h3>
-            <div className="tag-keahlian">
+          <div key={index} className="skill-category">
+            <h3 className="category-title">{skillGroup.category}</h3>
+            <div className="skill-tags">
               {skillGroup.items.map((item, idx) => (
-                <span key={idx} className="tag">{item}</span>
+                <span key={idx} className="skill-tag">{item}</span>
               ))}
             </div>
           </div>
         ))}
       </div>
-    </section>
+    </Section>
   );
 };
 

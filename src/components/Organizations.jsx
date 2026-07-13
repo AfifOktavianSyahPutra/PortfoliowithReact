@@ -1,24 +1,23 @@
-import React from 'react';
+import Section from './Section';
 
 const Organizations = ({ data }) => {
   return (
-    <section id="organisasi" className="wadah-seksi latar-alternatif">
-      <h2>Pengalaman Organisasi Kampus</h2>
-      <div className="kisi-daftar">
+    <Section id="organizations" title="Campus Organization Experience" variant="alternate">
+      <div className="list-grid">
         {data.map((org, index) => (
-          <article key={index} className="item-daftar">
-            <div className="kepala-daftar">
-              {org.logo && <img src={org.logo} alt={`Logo ${org.organization}`} className="logo-daftar" loading="lazy" />}
-              <div className="info-daftar">
-                <h4 className="judul-organisasi">{org.role}</h4>
-                <p className="nama-organisasi">{org.organization}</p>
-                <span className="periode-organisasi">{org.period}</span>
+          <article key={index} className="list-item">
+            <div className="list-header">
+              {org.logo && <img src={org.logo} alt={`Logo ${org.organization}`} className="list-logo" loading="lazy" />}
+              <div className="list-info">
+                <h4 className="organization-title">{org.role}</h4>
+                <p className="organization-name">{org.organization}</p>
+                <span className="organization-period">{org.period}</span>
               </div>
             </div>
           </article>
         ))}
       </div>
-    </section>
+    </Section>
   );
 };
 

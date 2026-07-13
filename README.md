@@ -1,9 +1,21 @@
-# Portofolio Personal - Afif Oktavian Syah Putra
+# Personal Portfolio - Afif Oktavian Syah Putra
 
-Situs web portofolio personal yang dibangun menggunakan React, HTML, dan CSS murni. Proyek ini mematuhi standar aksesibilitas WCAG AA, desain responsif, dan optimalisasi SEO.
+This is a personal portfolio website built with React, HTML, and pure CSS. The project follows WCAG AA accessibility standards, responsive design principles, and basic SEO optimization.
 
-## Cara Menjalankan Proyek
-1. Pastikan Node.js telah terpasang pada sistem.
-2. Jalankan perintah `npm install` pada terminal untuk mengunduh seluruh dependensi.
-3. Jalankan perintah `npm start` untuk memulai peladen (server) pengembangan lokal.
-4. Akses `http://localhost:0110` melalui peramban web.
+## Competencies Demonstrated
+- Implementing User Interfaces
+- Applying Execution Commands for Text-based, Graphical, and Multimedia Programming Languages
+- Organizing Functions, Files, or Other Programming Resources into an Organized Structure
+- Writing Code According to Guidelines and Best Practices
+- Implementing Structured Programming
+- Using Existing Libraries or Components
+
+## How to Run the Project
+1. Make sure Node.js is installed on your system.
+2. Run `npm install` in the terminal to install all dependencies.
+3. Run `npm start` to start the local development server.
+4. Open `http://localhost:1100` in your web browser.
+
+## Verification
+- Run `npm run build` to ensure the project compiles successfully.
+- Run `npm test -- --watchAll=false` to execute a simple regression test.

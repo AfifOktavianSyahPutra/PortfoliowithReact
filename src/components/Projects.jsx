@@ -1,39 +1,43 @@
-import React from 'react';
+import Section from './Section';
 
 const Projects = ({ data }) => {
+  const getExternalLinkProps = (url) => {
+    if (!url.startsWith('http')) return {};
+    return { target: '_blank', rel: 'noopener noreferrer' };
+  };
+
   return (
-    <section id="proyek" className="wadah-seksi latar-alternatif">
-      <h2>Proyek Unggulan</h2>
-      <div className="kisi-proyek">
+    <Section id="projects" title="Featured Projects" variant="alternate">
+      <div className="project-grid">
         {data.map((project, index) => (
-          <article key={index} className="kartu-proyek">
+          <article key={index} className="project-card">
             {project.iframeSrc ? (
-              <div className="wadah-iframe">
-                <iframe 
+              <div className="iframe-wrapper">
+                <iframe
                   title={project.title}
-                  src={project.iframeSrc} 
+                  src={project.iframeSrc}
                   allowFullScreen
-                  className="iframe-proyek"
+                  className="project-iframe"
                   loading="lazy"
                 ></iframe>
               </div>
             ) : (
-              <img 
-                src={project.image} 
-                alt={`Tangkapan layar dari proyek ${project.title}`} 
-                className="gambar-proyek" 
-                loading="lazy" 
+              <img
+                src={project.image}
+                alt={`Screenshot of the project ${project.title}`}
+                className="project-image"
+                loading="lazy"
               />
             )}
-            <div className="konten-proyek">
-              <span className="kategori-proyek">{project.category}</span>
+            <div className="project-content">
+              <span className="project-category">{project.category}</span>
               <h3>{project.title}</h3>
-              <p className="deskripsi-proyek-teks">
+              <p className="project-description">
                 {project.description}
               </p>
-              <div className="tautan-proyek">
+              <div className="project-links">
                 {project.links && project.links.map((link, idx) => (
-                  <a key={idx} href={link.url} className="tombol tombol-kecil">
+                  <a key={idx} href={link.url} className="button button-small" {...getExternalLinkProps(link.url)}>
                     {link.name}
                   </a>
                 ))}
@@ -42,7 +46,7 @@ const Projects = ({ data }) => {
           </article>
         ))}
       </div>
-    </section>
+    </Section>
   );
 };
 

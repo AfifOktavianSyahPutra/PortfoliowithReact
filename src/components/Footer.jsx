@@ -1,18 +1,16 @@
-import React from 'react';
-
 const Footer = ({ data }) => {
   return (
-    <footer id="kontak" className="kaki-halaman">
-      <h2 className="judul-kaki-halaman">Mari Berkolaborasi</h2>
-      <p className="teks-kaki-halaman">
-        Saya terbuka untuk diskusi profesional dan peluang baru di bidang teknologi informasi.
+    <footer id="contact" className="footer">
+      <h2 className="footer-title">Let's Collaborate</h2>
+      <p className="footer-text">
+        I am open to professional discussions and new opportunities in information technology.
       </p>
-      <div className="tautan-sosial">
-        <a href={`mailto:${data.email}`} className="tombol primer">Kirim Surel</a>
-        <a href={data.linkedin} target="_blank" rel="noreferrer" className="tombol">Kunjungi LinkedIn</a>
+      <div className="social-links">
+        <a href={`mailto:${data.email}`} className="button primary">Send Email</a>
+        <a href={data.linkedin} target="_blank" rel="noopener noreferrer" className="button">Visit LinkedIn</a>
       </div>
-      <p className="hak-cipta">
-        &copy; {new Date().getFullYear()} {data.name}. Seluruh hak cipta dilindungi.
+      <p className="copyright">
+        &copy; {new Date().getFullYear()} {data.name}. All rights reserved.
       </p>
     </footer>
   );
