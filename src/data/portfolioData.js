@@ -7,7 +7,7 @@ export const portfolioData = {
     email: "afifoktaviansyahputra@gmail.com",
     phone: "+6281228032747",
     linkedin: "https://www.linkedin.com/in/oktava8/",
-    profileImage: "https://media.licdn.com/dms/image/v2/D5635AQE9PjqOhPnirQ/profile-framedphoto-shrink_800_800/B56Z1IPVMJGwAg-/0/1775033472097?e=1783411200&v=beta&t=W6gGnJJipCoF6rCx3xvcPS994eozU0cjxm2tW551brI",
+    profileImage: "https://media.licdn.com/dms/image/v2/D5603AQEGTrUwo1OM-g/profile-displayphoto-scale_200_200/B56ZpOeSVEKAAc-/0/1762253155607?e=2147483647&v=beta&t=2DRGoAI1W3IT5fjV3CC03ytYoEPvKGw01vpZPBc4ekg",
   },
   summary: "A recent Informatics graduate from Sebelas Maret University with hands-on experience as an IT Product Manager at detikcom and the Surakarta City Department of Communication, Informatics, Statistics, and Encryption. Skilled in product roadmap planning, product requirement documents (PRDs), Agile/Scrum, Figma design, stakeholder management, and IT consulting. Certified as a Google Project Manager and a Junior Network Administrator by BNSP, with a strong foundation in infrastructure and technical systems.",
   experience: [
@@ -15,7 +15,7 @@ export const portfolioData = {
       role: "IT Product Manager Intern",
       company: "PT Trans Digital Media (detikcom)",
       period: "November 2025 - May 2026",
-      logo: "https://media.licdn.com/dms/image/v2/C4D0BAQFUAgJugB7P_w/company-logo_200_200/company-logo_200_200/0/1631334240991?e=1784160000&v=beta&t=TlfqbWXX2RyDzFrB0O9iUr5wXszDa8juRXWvi1rbvWw",
+      logo: "https://media.licdn.com/dms/image/v2/D5603AQEGTrUwo1OM-g/profile-displayphoto-scale_200_200/B56ZpOeSVEKAAc-/0/1762253155607?e=2147483647&v=beta&t=2DRGoAI1W3IT5fjV3CC03ytYoEPvKGw01vpZPBc4ekg",
       description: [
         "Managed the full lifecycle of IT products, covering development, quality assurance (QA), and technical implementation.",
         "Defined and maintained product roadmaps and backlogs to align development goals with business targets.",
@@ -40,7 +40,7 @@ export const portfolioData = {
       role: "Election Organizer Team (KPPS)",
       company: "General Elections Commission of the Republic of Indonesia (KPU RI)",
       period: "January 2024 - February 2024",
-      logo: "https://media.licdn.com/dms/image/v2/C560BAQHSJVStwYgU1g/company-logo_200_200/company-logo_200_200/0/1630657568276?e=1784160000&v=beta&t=wBQM3m2dlp1vh-phHAgvXtj0vBkIJWCfZ2mTHbMN2Q8",
+      logo: "https://media.licdn.com/dms/image/v2/C560BAQHSJVStwYgU1g/company-logo_100_100/company-logo_100_100/0/1630657568276?e=2147483647&v=beta&t=sFQ5UXj55A4ZDu0aNI6TkVMyAzZwrvjvFSGyi7dMOFg",
       description: [
         "Maintained public data integrity and transparency by managing digital data entry in real time using the Sirekap Mobile application.",
         "Directed polling station operations to comply with KPU regulations (PKPU No. 8/2022).",
