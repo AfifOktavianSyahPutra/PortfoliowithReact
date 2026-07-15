@@ -7,7 +7,7 @@ export const portfolioData = {
     email: "afifoktaviansyahputra@gmail.com",
     phone: "+6281228032747",
     linkedin: "https://www.linkedin.com/in/oktava8/",
-    profileImage: "https://media.licdn.com/dms/image/v2/D5603AQEGTrUwo1OM-g/profile-displayphoto-scale_200_200/B56ZpOeSVEKAAc-/0/1762253155607?e=2147483647&v=beta&t=2DRGoAI1W3IT5fjV3CC03ytYoEPvKGw01vpZPBc4ekg",
+    profileImage: "https://media.licdn.com/dms/image/v2/D5635AQE9PjqOhPnirQ/profile-framedphoto-shrink_200_200/B56Z1IPVMJGwAY-/0/1775033472055?e=1784703600&v=beta&t=odgAJ_cAHcKItep9c80_0HSnPSC434qni4ue78wbH2I",
   },
   summary: "A recent Informatics graduate from Sebelas Maret University with hands-on experience as an IT Product Manager at detikcom and the Surakarta City Department of Communication, Informatics, Statistics, and Encryption. Skilled in product roadmap planning, product requirement documents (PRDs), Agile/Scrum, Figma design, stakeholder management, and IT consulting. Certified as a Google Project Manager and a Junior Network Administrator by BNSP, with a strong foundation in infrastructure and technical systems.",
   experience: [
@@ -15,7 +15,7 @@ export const portfolioData = {
       role: "IT Product Manager Intern",
       company: "PT Trans Digital Media (detikcom)",
       period: "November 2025 - May 2026",
-      logo: "https://media.licdn.com/dms/image/v2/D5603AQEGTrUwo1OM-g/profile-displayphoto-scale_200_200/B56ZpOeSVEKAAc-/0/1762253155607?e=2147483647&v=beta&t=2DRGoAI1W3IT5fjV3CC03ytYoEPvKGw01vpZPBc4ekg",
+      logo: "https://media.licdn.com/dms/image/v2/C4D0BAQFUAgJugB7P_w/company-logo_100_100/company-logo_100_100/0/1631334240991?e=2147483647&v=beta&t=1tAC6tjWOR3Y5W1azFrg_Y1TUSj97AGp8cSInAqv0yk",
       description: [
         "Managed the full lifecycle of IT products, covering development, quality assurance (QA), and technical implementation.",
         "Defined and maintained product roadmaps and backlogs to align development goals with business targets.",
@@ -112,43 +112,43 @@ export const portfolioData = {
       title: "Google Project Management",
       issuer: "Coursera (Google)",
       date: "December 2025",
-      image: "https://media.licdn.com/dms/image/v2/D562DAQHr3QIIIM0nXg/profile-treasury-document-images_1280/B56Ztt8b08HAAU-/1/1767076119741?e=1783555200&v=beta&t=IZHFYInIMKACQl7pdcAaDxK7zosQRSP18aijcJuiCkU"
+      image: "https://media.licdn.com/dms/image/v2/D562DAQHr3QIIIM0nXg/profile-treasury-document-images_1280/B56Ztt8b08HAAU-/1/1767076119741?e=1784764800&v=beta&t=1uURF4KWPGr68CxT_NErkXQ9Yv_foL4x0SVk6uOb-DY"
     },
     {
       title: "Final Courses and Certificate Project Management",
       issuer: "Digital Talent Scholarship (Digitalent)",
       date: "December 2025",
-      image: "https://media.licdn.com/dms/image/v2/D562DAQHMBEsuJUfQkw/profile-treasury-document-images_1280/B56Ztt7IS8G0AU-/1/1767075778382?e=1783555200&v=beta&t=_KAl11PGGVfFp6uNqClchJiJFtMT188nh3PSNT3o6ZI"
+      image: "https://media.licdn.com/dms/image/v2/D562DAQHMBEsuJUfQkw/profile-treasury-document-cover-images_800/B56Ztt7IS8G0A8-/0/1767075778418?e=1784703600&v=beta&t=2_--gKjpE6LAmBi-1EMagkJbyXHS-ABSLPqbeOuQWcE"
     },
     {
       title: "Google AI Essentials",
       issuer: "Coursera (Google)",
       date: "November 2025",
-      image: "https://media.licdn.com/dms/image/v2/D562DAQF1vpfy4H53OQ/profile-treasury-document-images_1280/B56Zwiaje.HcAY-/1/1770103915062?e=1783555200&v=beta&t=BRgIV3baboPr0vP8J1oK5N7kRmCJCie6G6Y1q8KP9T0"
+      image: "https://media.licdn.com/dms/image/v2/D562DAQF1vpfy4H53OQ/profile-treasury-document-cover-images_480/B56Zwiaje.HcBM-/0/1770103914803?e=1784703600&v=beta&t=_NiRApHjPl6JM1D8zMUVe3morDCdyHTxqZF-HcSV1Ho"
     },
     {
       title: "Project Management Intermediate",
       issuer: "Digital Talent Scholarship (Digitalent)",
       date: "November 2025",
-      image: "https://media.licdn.com/dms/image/v2/D562DAQFBkAjHswPyeg/profile-treasury-document-images_1280/B56Ztt88SnGwAU-/1/1767076253388?e=1783555200&v=beta&t=9mQ2vTZJE0XrmCCd26Kt3UDtV0A2czeg8Xa9JJ-R96w"
+      image: "https://media.licdn.com/dms/image/v2/D562DAQFBkAjHswPyeg/profile-treasury-document-cover-images_480/B56Ztt88SnGwBI-/0/1767076253172?e=1784703600&v=beta&t=8UG8u-22qiyQiI6lGzkGClNCeVxHxFuJRF_RjnEBd5A"
     },
     {
       title: "Fundamental Project Management",
       issuer: "Digital Talent Scholarship (Digitalent)",
       date: "August 2025 - December 2025",
-      image: "https://media.licdn.com/dms/image/v2/D562DAQEG5Il6vsweeQ/profile-treasury-document-cover-images_1920/B56ZjmuKs5G4BM-/0/1756217522432?e=1783414800&v=beta&t=FPj9OThSUoYWzvuRc1y5c6oYTocAu984sjPSQOxOIP0"
+      image: "https://media.licdn.com/dms/image/v2/D562DAQEG5Il6vsweeQ/profile-treasury-document-images_1280/B56ZjmuKs5G4AU-/1/1756217521663?e=1784764800&v=beta&t=xscEvt-1Gsk28ltbVrr8taex5SW25b-B9zvogfAxLic"
     },
     {
       title: "Junior Network Administrator",
       issuer: "National Professional Certification Agency (BNSP)",
       date: "June 2025",
-      image: "https://media.licdn.com/dms/image/v2/D562DAQF-gGWN20CgEQ/profile-treasury-document-images_1280/B56ZiTy44bHkAU-/1/1754826249972?e=1783555200&v=beta&t=RCCUJrYfm3rAKZMYLgmjjAUb0WhYFrHEOKbA6sYQ_X0"
+      image: "https://media.licdn.com/dms/image/v2/D562DAQF-gGWN20CgEQ/profile-treasury-document-cover-images_1920/B56ZiTy44bHkBM-/0/1754826250170?e=1784703600&v=beta&t=ucESyZWNfggIKthCjJ097-z8YahQiDE87nNZj-NK9xY"
     },
     {
       title: "Cybersecurity Essentials",
       issuer: "Cisco Networking Academy",
       date: "June 2024",
-      image: "https://media.licdn.com/dms/image/v2/D562DAQGABaMHAU6Mfw/profile-treasury-document-images_1280/profile-treasury-document-images_1280/1/1714696278079?e=1783555200&v=beta&t=D_SZ_UjypXB0ciyR144oL2oB3i6-0NnzHNNN5HiABL0"
+      image: "https://media.licdn.com/dms/image/v2/D562DAQGa1sw8jVq-Hw/profile-treasury-document-cover-images_1280/profile-treasury-document-cover-images_1280/0/1719770984165?e=1784703600&v=beta&t=eiOadJIJNnr3WgSz4b7adzfzLiQlGNzZSaQeLiC45Uw"
     }
   ],
   organizations: [
