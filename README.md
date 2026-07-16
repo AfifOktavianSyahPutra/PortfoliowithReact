@@ -1,21 +1,46 @@
 # Personal Portfolio - Afif Oktavian Syah Putra
 
-This is a personal portfolio website built with React, HTML, and pure CSS. The project follows WCAG AA accessibility standards, responsive design principles, and basic SEO optimization.
+This repository contains a full-stack portfolio application built with React on the frontend and Express + MySQL on the backend.
 
-## Competencies Demonstrated
-- Implementing User Interfaces
-- Applying Execution Commands for Text-based, Graphical, and Multimedia Programming Languages
-- Organizing Functions, Files, or Other Programming Resources into an Organized Structure
-- Writing Code According to Guidelines and Best Practices
-- Implementing Structured Programming
-- Using Existing Libraries or Components
+## Project structure
+- `frontend/` - React app source and build scripts
+- `backend/` - Express API server, MySQL initialization, controllers, routes, services
+- `backend/db/portfolio-data.sql` - persisted schema and seed data for the portfolio database
+- `BNSP-Web-Developer-Assistant-Study-Guide.md` - certification study guide and repository notes
 
 ## How to Run the Project
-1. Make sure Node.js is installed on your system.
-2. Run `npm install` in the terminal to install all dependencies.
-3. Run `npm start` to start the local development server.
-4. Open `http://localhost:1100` in your web browser.
+The repository is split into two projects:
+
+### Backend
+1. Open a terminal and run:
+   ```bash
+   cd backend
+   npm install
+   ```
+2. Copy `.env.example` to `.env` and set your MySQL credentials.
+3. Start the backend server:
+   ```bash
+   npm run server
+   ```
+4. The backend API listens by default on `http://localhost:5000`.
+
+### Frontend
+1. Open a second terminal and run:
+   ```bash
+   cd frontend
+   npm install
+   ```
+2. Start the React development server:
+   ```bash
+   npm start
+   ```
+3. Open `http://localhost:1100` in your browser.
+
+## Notes
+- The backend initializes MySQL and portfolio schema on startup.
+- Portfolio data is loaded exclusively from MySQL; there is no local JSON fallback.
+- The frontend fetches portfolio data from the backend endpoint `/api/portfolio-data`.
 
 ## Verification
-- Run `npm run build` to ensure the project compiles successfully.
-- Run `npm test -- --watchAll=false` to execute a simple regression test.
+- Backend: open `http://localhost:5000/api/portfolio-data` after starting the server.
+- Frontend: run `npm run build` inside `frontend/` to verify the React app compiles.

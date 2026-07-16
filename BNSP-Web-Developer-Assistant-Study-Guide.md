@@ -91,31 +91,53 @@ This unit covers the ability to run programs and scripts using the correct execu
 - Basic debugging
 - Environment setup
 
-### Practical example: running a JavaScript file
+### Practical example: running the repository backend and frontend
 ```bash
-node app.js
+cd backend
+npm install
+npm run server
 ```
 
-### Practical example: package scripts
+```bash
+cd frontend
+npm install
+npm start
+```
+
+### Practical example: package scripts in this repo
 ```json
 {
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "server": "node server.js"
   }
 }
 ```
 
+```json
+{
+  "scripts": {
+    "start": "set PORT=1100 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  }
+}
+```
+
+In this repository, the backend starts an Express server that initializes MySQL schema and serves portfolio data from the database only. The frontend loads the portfolio data from `/api/portfolio-data`.
+
 ### Practical example: common runtime error
 ```javascript
 function greet(name) {
+  if (!name) {
+    throw new Error("Name is required");
+  }
   console.log("Hello, " + name);
 }
 
 greet();
 ```
 
-This produces an error because the argument is missing. A developer should read the message, identify the problem, and fix the code.
+This produces an error because the argument is missing. A developer should read the message, identify the problem, and fix the code or add input validation.
 
 ### Exam tip
 Be able to explain how to run code, where to find errors, and how to use the correct tool for the job.
@@ -140,34 +162,39 @@ This unit emphasizes keeping projects structured so that code and resources are 
 
 ### Practical example: clear folder structure
 ```text
-src/
-  components/
-    Navbar.jsx
-    Footer.jsx
-  pages/
-    Home.jsx
-    About.jsx
-  utils/
-    formatDate.js
-  styles/
-    main.css
+backend/
+  controllers/
+  routes/
+  services/
+  db/
+  server.js
+frontend/
+  public/
+  src/
+    components/
+    hooks/
+    services/
+    styles/
 ```
 
 ### Practical example: separate logic into modules
 ```javascript
-// utils/formatDate.js
-export function formatDate(date) {
-  return new Date(date).toLocaleDateString();
+// backend/services/portfolio-data.service.js
+async function fetchPortfolioData(pool) {
+  const [rows] = await pool.query('SELECT * FROM portfolios LIMIT 1');
+  return rows[0];
 }
 ```
 
 ```javascript
-// pages/Home.jsx
-import { formatDate } from "../utils/formatDate";
-
-export default function Home() {
-  return <p>{formatDate("2026-07-15")}</p>;
-}
+// frontend/src/services/portfolio.service.js
+export const fetchPortfolioData = async () => {
+  const response = await fetch('http://localhost:5000/api/portfolio-data');
+  if (!response.ok) {
+    throw new Error('Unable to load portfolio data');
+  }
+  return response.json();
+};
 ```
 
 ### Exam tip
@@ -289,7 +316,7 @@ This unit focuses on using existing libraries, frameworks, and reusable componen
 
 ### Practical example: using a React component
 ```javascript
-import React, { useState } from "react";
+import { useState } from "react";
 
 function Counter() {
   const [count, setCount] = useState(0);
@@ -305,17 +332,21 @@ function Counter() {
 export default Counter;
 ```
 
-### Practical example: installing and using a package
+### Practical example: installing and using a package in this repo
 ```bash
-npm install axios
+cd backend
+npm install mysql2
 ```
 
 ```javascript
-import axios from "axios";
+import mysql from "mysql2/promise";
 
-axios.get("https://jsonplaceholder.typicode.com/posts/1")
-  .then((response) => console.log(response.data))
-  .catch((error) => console.error(error));
+const pool = mysql.createPool({
+  host: process.env.MYSQL_HOST,
+  user: process.env.MYSQL_USER,
+  password: process.env.MYSQL_PASSWORD,
+  database: process.env.MYSQL_DATABASE,
+});
 ```
 
 ### Exam tip
